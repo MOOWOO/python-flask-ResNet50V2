@@ -1,0 +1,4 @@
+0 Hair_loss_0
+1 Hair_loss_1
+2 Hair_loss_2
+3 Hair_loss_3
