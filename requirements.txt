@@ -159,10 +159,8 @@ tornado==6.3.2
 tqdm==4.65.0
 traitlets==5.9.0
 transformers==4.30.2
-tvm==0.13.dev232+gdee3c2ab2
 Twisted==17.1.0
 typing-extensions==3.7.4.3
-UNKNOWN==0.0.0
 urllib3==1.26.11
 w3lib==1.17.0
 wcwidth==0.2.6
