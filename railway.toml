@@ -1,0 +1,9 @@
+[build]
+builder = "nixpacks"
+buildCommand = "pip install -r requirements.txt"
+
+[deploy]
+startCommand = "python3 run_keras_server.py"
+healthcheckPath = "/"
+healthcheckTimeout = 100
+restartPolicyType = "never"
