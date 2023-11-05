@@ -31,11 +31,11 @@ def load_model():
 	# substitute in your own networks just as easily)
 	global model
 	global class_names
-	model = keras.models.load_model("./ResNet50V2")
+	model = keras.models.load_model("Hair_loss/ResNet50V2")
 	
 	#model = ResNet50(weights="imagenet")
 	#model = keras.models.load_model("./converted_keras/keras_model.h5", compile=False)
-	class_names = open("./ResNet50V2/labels.txt", "r").readlines()
+	class_names = open("./Hair_loss/ResNet50V2/labels.txt", "r").readlines()
 
 def prepare_image(image, target):
 	# if the image mode is not RGB, convert it
@@ -105,5 +105,5 @@ if __name__ == "__main__":
 		"please wait until server has fully started"))
 	load_model()
 	# app.run()
-	http_server = WSGIServer(('', 5000), app)
+	http_server = WSGIServer(('', 443), app)
 	http_server.serve_forever()
