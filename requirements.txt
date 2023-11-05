@@ -51,8 +51,6 @@ greenlet==2.0.2
 grpcio==1.36.1
 grpcio-tools==1.36.1
 gunicorn==21.2.0
-h5py==3.1.0
-html5lib==1.1
 http-utils==0.1.0
 huggingface-hub==0.17.3
 idna==2.5
