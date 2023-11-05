@@ -3,7 +3,7 @@ builder = "nixpacks"
 buildCommand = "pip install -r requirements.txt"
 
 [deploy]
-startCommand = "python ./Hair_loss/run_keras_server.py"
+startCommand = "python Hair_loss/run_keras_server.py"
 healthcheckPath = "/"
 healthcheckTimeout = 100
 restartPolicyType = "never"
