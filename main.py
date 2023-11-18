@@ -105,5 +105,5 @@ if __name__ == "__main__":
 		"please wait until server has fully started"))
 	load_model()
 	# app.run()
-	http_server = WSGIServer(('', 443), app)
+	http_server = WSGIServer(('', 5000), app)
 	http_server.serve_forever()
