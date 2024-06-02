@@ -22,9 +22,7 @@ $ git clone https://github.com/jrosebr1/simple-keras-rest-api.git
 
 ## Starting the Keras server
 
-Below you can see the image we wish to classify, a _dog_, but more specifically a _beagle_:
-
-![dog](dog.jpg)
+Below you can see the image we wish to classify, a how much hair loss, but more specifically a (early)1~5(late):
 
 The Flask + Keras server can be started by running:
 
